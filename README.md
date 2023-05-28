@@ -1,5 +1,7 @@
 # BNO055_API
 A bno055 library which can usable with both polling or interrupt way. I2C protocol used.
+---
+###### This library is still under developement
 
 The "bno055_stm32.h" library was implemented to this library.
 
