@@ -13,8 +13,8 @@ uint16_t eulerScale = 16;
 uint16_t magScale = 16;
 uint16_t quaScale = (1<<14);    // 2^14
 
-extern I2C_HandleTypeDef hi2c1;
-#define BNO055_I2C &hi2c1
+extern I2C_HandleTypeDef hi2c1; // Change the I2C Handler
+#define BNO055_I2C &hi2c1	// *
 
 void bno055_delay(int time) {
 #ifdef FREERTOS_ENABLED
